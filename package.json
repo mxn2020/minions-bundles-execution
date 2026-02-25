@@ -1,7 +1,7 @@
 {
     "name": "minions-bundles-execution-workspace",
     "private": true,
-    "version": "0.1.2",
+    "version": "0.1.0",
     "description": "Granular task management and daily tracking bundle — sprints, tasks, blockers",
     "type": "module",
     "license": "MIT",
@@ -11,12 +11,12 @@
         "apps/*"
     ],
     "scripts": {
-        "build": "pnpm --filter @mxn2020/minions-bundles-execution-sdk run build && pnpm --filter @mxn2020/minions-bundles-execution-cli run build && pnpm --filter minions-bundles-execution-docs run build && pnpm --filter minions-bundles-execution-blog run build && pnpm --filter minions-bundles-execution-web run build",
+        "build": "pnpm --filter @minions-bundles-execution/sdk run build && pnpm --filter @minions-bundles-execution/cli run build && pnpm --filter minions-bundles-execution-docs run build && pnpm --filter minions-bundles-execution-blog run build && pnpm --filter minions-bundles-execution-web run build",
         "deploy:blog": "pnpm --filter minions-bundles-execution-blog run build && netlify deploy --dir apps/blog/dist --prod",
         "deploy:docs": "pnpm --filter minions-bundles-execution-docs run build && netlify deploy --dir apps/docs/dist --prod",
         "deploy:web": "pnpm --filter minions-bundles-execution-web run build && netlify deploy --dir apps/web/dist --prod",
-        "test": "pnpm --filter @mxn2020/minions-bundles-execution-sdk run test",
-        "lint": "pnpm --filter @mxn2020/minions-bundles-execution-sdk run build && pnpm --filter @mxn2020/minions-bundles-execution-sdk run lint && pnpm --filter @mxn2020/minions-bundles-execution-cli run lint",
+        "test": "pnpm --filter @minions-bundles-execution/sdk run test",
+        "lint": "pnpm --filter @minions-bundles-execution/sdk run build && pnpm --filter @minions-bundles-execution/sdk run lint && pnpm --filter @minions-bundles-execution/cli run lint",
         "deploy": "pnpm run deploy:blog"
     },
     "engines": {

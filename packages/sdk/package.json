@@ -1,5 +1,5 @@
 {
-  "name": "@mxn2020/minions-bundles-execution-sdk",
+  "name": "@minions-bundles-execution/sdk",
   "version": "0.1.0",
   "description": "Granular task management and daily tracking bundle — sprints, tasks, blockers",
   "type": "module",
