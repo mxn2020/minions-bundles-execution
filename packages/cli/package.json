@@ -1,6 +1,6 @@
 {
   "name": "@minions-bundles-execution/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-bundles-execution — Granular task management and daily tracking bundle — sprints, tasks, blockers",
   "license": "MIT",
   "repository": {
@@ -8,7 +8,12 @@
     "url": "https://github.com/mxn2020/minions-bundles-execution"
   },
   "homepage": "https://docs.minions.wtf",
-  "keywords": ["execution","bundle","ai","minions"],
+  "keywords": [
+    "execution",
+    "bundle",
+    "ai",
+    "minions"
+  ],
   "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
   "type": "module",
   "bin": {
