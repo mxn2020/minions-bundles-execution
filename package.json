@@ -1,7 +1,7 @@
 {
     "name": "minions-bundles-execution-workspace",
     "private": true,
-    "version": "0.1.0",
+    "version": "0.1.4",
     "description": "Granular task management and daily tracking bundle — sprints, tasks, blockers",
     "type": "module",
     "license": "MIT",
