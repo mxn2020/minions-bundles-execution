@@ -10,9 +10,9 @@ We're excited to introduce **Minions Bundle: Execution** — Granular task manag
 
 ## What's Included
 
-- **TypeScript SDK**: `npm install @mxn2020/minions-bundles-execution-sdk`
+- **TypeScript SDK**: `npm install @minions-bundles-execution/sdk`
 - **Python SDK**: `pip install minions-bundles-execution`
-- **CLI**: `npm install -g @mxn2020/minions-bundles-execution-cli`
+- **CLI**: `npm install -g @minions-bundles-execution/cli`
 
 ## Getting Started
 
