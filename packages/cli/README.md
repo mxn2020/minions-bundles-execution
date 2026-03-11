@@ -1,3 +1,5 @@
+![CI](https://github.com/mxn2020/@minions-bundles-execution/cli/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # @minions-bundles-execution/cli
 
 CLI for Minions Bundle: Execution — Granular task management and daily tracking bundle — sprints, tasks, blockers

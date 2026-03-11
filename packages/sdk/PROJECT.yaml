@@ -1,0 +1,8 @@
+name: "@minions-bundles-execution/sdk"
+project_scope: child
+child_type: sdk
+parent_project: minions-bundles-execution-workspace
+description: "Granular task management and daily tracking bundle — sprints, tasks, blockers"
+priority: high
+deploy_url: null
+tags: null

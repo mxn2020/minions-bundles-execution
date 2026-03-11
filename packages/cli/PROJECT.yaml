@@ -1,0 +1,8 @@
+name: "@minions-bundles-execution/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-bundles-execution-workspace
+description: "CLI for minions-bundles-execution — Granular task management and daily tracking bundle — sprints, tasks, blockers"
+priority: high
+deploy_url: null
+tags: null
