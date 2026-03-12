@@ -1,8 +1,8 @@
 {
   "name": "minions-bundles-execution-workspace",
   "private": true,
-  "version": "0.1.4",
-  "description": "Granular task management and daily tracking bundle \u2014 sprints, tasks, blockers",
+  "version": "0.2.0",
+  "description": "Granular task management and daily tracking bundle — sprints, tasks, blockers",
   "type": "module",
   "license": "MIT",
   "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
